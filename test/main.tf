@@ -1,9 +1,10 @@
-# Dummy stuff5
+# Dummy stuff6
 
 resource "null_resource" "codacy_project_token" {
 
   provisioner "local-exec" {
-    when        = create
+    interpreter   = ["pwsh", "-Command"]
+    when          = create
           command = <<EOF
 
 Write-Output "Hello World. Lets go to sleep"
@@ -13,6 +14,5 @@ Get-Date
 Write-Output "Fin"
 
       EOF
-    interpreter = ["pwsh", "-Command"]
   }
 }

@@ -11,6 +11,7 @@ jobs:
     uses: badbort/workflows/.github/workflows/terraform-azure.yaml@main
     with:
       environment: main
+      directory: test
     secrets: 
       AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}

@@ -1,3 +1,5 @@
+# Dummy stuff
+
 resource "null_resource" "codacy_project_token" {
 
   provisioner "local-exec" {

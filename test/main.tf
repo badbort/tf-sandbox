@@ -1,4 +1,4 @@
-# Dummy stuff
+# Dummy stuff2
 
 resource "null_resource" "codacy_project_token" {
 

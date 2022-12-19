@@ -1,6 +1,13 @@
-# Dummy stuff6
+variable "blah" {
+  type = string
+  default = "test8"
+}
 
 resource "null_resource" "codacy_project_token" {
+
+  triggers = {
+    blah = var.blah
+  }
 
   provisioner "local-exec" {
     interpreter = ["pwsh", "-Command"]

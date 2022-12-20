@@ -19,7 +19,6 @@ jobs:
       environment: main
       directory: test
       tf_apply_branch: main
-      mutex-branch: gh-mutex
     secrets: 
       AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}

@@ -1,6 +1,6 @@
 variable "blah" {
   type    = string
-  default = "test 15"
+  default = "test 16"
 }
 
 resource "null_resource" "codacy_project_token" {

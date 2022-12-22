@@ -19,6 +19,7 @@ jobs:
       environment: main
       directory: test
       tf_apply_branch: main
+      prevent_old_runs: true
       mutex-branch: gh-mutex
     secrets: 
       AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}

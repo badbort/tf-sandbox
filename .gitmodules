@@ -1,3 +1,6 @@
 [submodule "submodules/shared-infrastructure"]
 	path = submodules/shared-infrastructure
 	url = https://github.com/badbort/shared-infrastructure
+[submodule "learning-terraform"]
+	path = learning-terraform
+	url = https://github.com/badbort/learning-terraform
